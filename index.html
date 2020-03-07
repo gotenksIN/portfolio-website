@@ -1,147 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="w3.css">
 <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-  <!-- or -->
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <title>Giorgi Tsereteli</title>
+href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+<!-- or -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<title>Omkar Chandorkar</title>
+<style>
+table.center {
+margin-left:auto; 
+margin-right:auto;
+}
+</style>
 </head>
 <body>
-   <!-- Navigation Bar -->
-    <header>
-        <nav id="nav">
-           <div class="menu">
-                <ul>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#skills">skills</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!-- Main Page Secton -->
+<!-- Navigation Bar -->
+<header>
+    <nav id="nav">
+        <div class="menu">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- Main Page Secton -->
+
+<main>
+    <!-- Full Screen Main Section -->
     
-    <main>
-       <!-- Full Screen Main Section -->
-       
-        <section id="home">
-            <div class="text-home">
-                <img src="profile.jpg" alt="profile">
-                <h1 class="wow animated fadeInRight">Hi,I'm Omkar Chandorkar.</h1>
-                <div class="wow padding animated fadeIn">
-                    <p class="indic animated" >  Best is subjective.</p>
-                    <a href="#" class="arrow-down"></a>
-                </div>
+    <section id="home">
+        <div class="text-home">
+            <img src="profile.jpg" alt="profile">
+            <h1 class="wow animated fadeInRight">Hi, I'm Omkar Chandorkar.</h1>
+            <div class="wow padding animated fadeIn">
+                <p class="indic animated" >  Best is subjective.</p>
+                <a href="#" class="arrow-down"></a>
             </div>
-        </section>
-        
-        <!-- About Me Section -->
-        
-        <section id="about">
-            <div class="text-about">
-                <h1 class="wow animated fadeInUp">About Me</h1>
-                <p class="wow animated fadeInUp">I, Omkar Chandorkar am a First Year B.Tech. student at MIT-WPU. I like backend development, system programming as well as a little bit of electronics. I have worked with Arduinos, Raspberry Pi's and other microprocessors. I am a hardworking and dedicated person. </p>
-                <table style="width:100%">
-                    <tr>
-                        <th>Examination</th>
-                        <th>Passing Year</th>
-                        <th>Percentage/Percentile</th>
-                    </tr>
-                    <tr>
-                        <td>SSC Examination</td>
-                        <td>2016-2017</td>
-                        <td>89.2%</td>
-                    </tr>
-                    <tr>
-                        <td>HSC Examination</td>
-                        <td>2018-2019</td>
-                        <td>69%</td>
-                    </tr>
-                    <tr>
-                        <td>JEE Mains</td>
-                        <td>2018-2019</td>
-                        <td>90</td>
-                    </tr>
-                    </table>
-            </div>
-        </section>
-        
-        <!-- Skills Section -->
-        
-        <section id="skills">
-            <div class="text-skills">
-                <h1 class="wow animated fadeInUp">Skills</h1>
-                    <div class="wow grid animated fadeInUp">   
-                        <div>
-                           <h3>Coding</h3>
-                            <img src="c.png" alt=""><p>C</p>
-                            <br><br>
-                            <img src="python.png" alt=""><p>Python</p>
-                            <br><br>
-                            <img src="js.png" alt=""><p>JavaScript</p>
-                        </div> 
-                        <div>
-                            <h3>Electronics</h3>
-                            <img src="arduino.png" alt=""><p>Arduino</p>
-                            <br><br>
-                            <img src="raspi.png" alt=""><p>Raspberry Pi</p>
-                        </div>
+        </div>
+    </section>
+    
+    <!-- About Me Section -->
+    
+    <section id="about">
+        <div class="text-about">
+            <h1 class="wow animated fadeInUp">About Me</h1>
+            <p class="wow animated fadeInUp">I, Omkar Chandorkar am a First Year B.Tech. student at MIT-WPU. I like backend development, system programming as well as a little bit of electronics. I have worked with Arduinos, Raspberry Pi's and other microprocessors. I am a hardworking and dedicated person. </p>
+            <table class="w3-table-all" id="myTable">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <tr>
+                    <th>Examination</th>
+                    <th>Passing Year</th>
+                    <th>Percentage/Percentile</th>
+                </tr>
+                <tr>
+                    <td>SSC Examination</td>
+                    <td>2016-2017</td>
+                    <td>89.2%</td>
+                </tr>
+                <tr>
+                    <td>HSC Examination</td>
+                    <td>2018-2019</td>
+                    <td>69%</td>
+                </tr>
+                <tr>
+                    <td>JEE Mains</td>
+                    <td>2018-2019</td>
+                    <td>90</td>
+                </tr>
+                </table>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    
+    <section id="skills">
+        <div class="text-skills">
+            <h1 class="wow animated fadeInUp">Skills</h1>
+                <div class="wow grid animated fadeInUp">   
+                    <div>
+                        <h3>Coding</h3>
+                        <img src="c.png" alt=""><p>C</p>
+                        <br><br>
+                        <img src="python.png" alt=""><p>Python</p>
+                        <br><br>
+                        <img src="js.png" alt=""><p>JavaScript</p>
+                    </div> 
+                    <div>
+                        <h3>Electronics</h3>
+                        <img src="arduino.png" alt=""><p>Arduino</p>
+                        <br><br>
+                        <img src="raspi.png" alt=""><p>Raspberry Pi</p>
                     </div>
-            </div>
-        </section>
-        
-        <!-- Projects Section -->
-        
-        <section id="projects">
-            <div class="text-projects">
-                <h1 class="wow animated fadeInUp">Projects</h1>
-                <h3 class="wow animated fadeInUp">Main Projects</h3>
-                <div class="wow animated fadeInUp">
-                    <a href="https://github.com/gotenksIN/scripts"><img src="p1.jpeg" alt=""></a>
-                    <a href="https://github.com/gotenksIN/first-portfolio-project"><img src="p2.jpeg" alt=""></a>
                 </div>
-                <br><br><br>
-                <a href="#" class="wow button animated fadeIn">More Projects</a>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    
+    <section id="projects">
+        <div class="text-projects">
+            <h1 class="wow animated fadeInUp">Projects</h1>
+            <h3 class="wow animated fadeInUp">Main Projects</h3>
+            <div class="wow animated fadeInUp">
+                <a href="https://github.com/gotenksIN/scripts"><img src="p1.jpeg" alt=""></a>
+                <a href="https://github.com/gotenksIN/first-portfolio-project"><img src="p2.jpeg" alt=""></a>
             </div>
-        </section>
-        
-        <!-- Contact Section -->
-        
-        <section id="contact">
-            <div class="text-contact">
-               <h1 class="wow animated fadeInUp">Contact Me</h1>
-                <form action="" id="form" class="wow animated fadeInUp">
-                    <input type="text" placeholder="Name"><br>
-                    <input type="email" placeholder="Email"><br><br>
-                    <textarea name="area" id="" cols="30" rows="10" placeholder="Your Message"></textarea><br>
-                </form>
-                <a href="" class="wow button animated fadeIn">Submit</a>
-            </div>
-        </section>
-    </main>
+            <br><br><br>
+            <a href="#" class="wow button animated fadeIn">More Projects</a>
+        </div>
+    </section>
     
-    <!-- Footer -->
+    <!-- Contact Section -->
     
-    <footer>
-        <a href="https://github.com/gotenksIN"><img src="githug.svg" alt=""><p>Github</p></a>
-        <a href="https://twitter.com/gotenksIN"><img src="twitter.svg" alt=""><p>Twitter</p></a><br><br>
-        <p>Made by @me</p>
-    </footer>
-    
-    <!-- Script -->
-    
-    <script type="text/javascript" src="wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <section id="contact">
+        <div class="text-contact">
+            <h1 class="wow animated fadeInUp">Contact Me</h1>
+            <form action="" id="form" class="wow animated fadeInUp">
+                <input type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email"><br><br>
+                <textarea name="area" id="" cols="30" rows="10" placeholder="Your Message"></textarea><br>
+            </form>
+            <a href="" class="wow button animated fadeIn">Submit</a>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+
+<footer>
+    <a href="https://github.com/gotenksIN"><img src="githug.svg" alt=""><p>Github</p></a>
+    <a href="https://twitter.com/gotenksIN"><img src="twitter.svg" alt=""><p>Twitter</p></a><br><br>
+    <p>Made by gotenksIN</p>
+</footer>
+
+<!-- Script -->
+
+<script type="text/javascript" src="wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
