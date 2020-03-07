@@ -143,16 +143,21 @@ h1 {
 
 #skills {
 	height: 100vh;
-	width: 100%;
+    width: 100%; 
 	text-align: center;
 	color: #151616;
 }
 
 .text-skills {
 	position: relative;
-	top: 10%;
+    top: 10%;
+    left: 8%;
+	text-align: center;
 }
-
+.text-skills h1 {
+    position: absolute;
+    left: 40%;
+}
 .text-skills h3 {
 	font-size: 2em;
 	padding-bottom: 2em;
